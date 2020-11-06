@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">BaseAndroid</string>
+
+    <string name="emoji_ban">不支持输入Emoji表情符号</string>
+    <string name="find_pwd_phone">输入你的账号</string>
+    <string name="find_pwd_pwd">输入你的密码</string>
+    <!-- 登录 -->
+    <string name="login_btn_tx">登录</string>
+    <string name="login_retrieve_pwd">忘记密码？</string>
+    <string name="login_register">没有账号? 点击注册</string>
+    <string name="login_bottom_text">华为云提供算力</string>
+
+    <string name="modify_pwd_toast1">请输入密码！</string>
+    <string name="register_pwd_toast">密码只能由数字和字母组成，6-15位</string>
+    <string name="toast_phone_format_wrong">手机号格式有误</string>
+
+    <!-- 文件相关 -->
+    <string name="folder_desc">文件:%1$s&#160;&#160;|&#160;&#160;文件夹:%2$s</string>
+    <string name="file_desc">%1$s&#160;&#160;|&#160;&#160;%2$s</string>
+    <string name="selected_file_count">选中(%1$s/%2$s)</string>
+    <string name="toast_get_version_info_failed">获取版本信息失败</string>
+    <string name="toast_download_new_version_failed">下载新版本失败</string>
+
+    <string name="route_plan_path_traffic_lights">红绿灯%1$s个</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="poi_search_error">搜索出错</string>
+
+    <!-- 版本升级相关标签 -->
+    <string name="toast_download_new_version">正在下载新版本</string>
+    <string name="toast_download_finish">下载完成</string>
+    <string name="toast_click_install">点击安装</string>
+    <string name="title_dialog_check_for_update">检测到新版本</string>
+    <string name="new_version_tx">最新版本</string>
+    <string name="current_version_tx">当前版本</string>
+    <string name="toast_current_version_is_newest">当前版本已为最新</string>
+    <string name="update_immediately">立即更新</string>
+    <string name="until_later">以后再说</string>
+    <string name="toast_title_network_setting">网络设置提示</string>
+    <string name="toast_network_setting">网络连接已断开,是否进行设置?</string>
+
+    <string name="my_setting">设置</string>
+    <string name="position">确定</string>
+    <string name="nagetive">取消</string>
+    <string name="file_permission">您尚未开通文件读写权限，无法更新APP</string>
+    <string name="exit_application">再按一次退出程序</string>
+    <string name="permission_denied_sms">已拒绝获取短信权限</string>
+    <string name="header_hint_refresh_normal">下拉即可刷新</string>
+    <string name="header_hint_refresh_ready">松开即可刷新</string>
+
+    <string name="header_hint_refresh_loading">使劲加载中，请稍后...</string>
+    <string name="header_hint_refresh_time">更新于:</string>
+    <string name="footer_hint_load_normal">使劲加载中，请稍后...</string>
+    <string name="footer_hint_load_ready">使劲加载中，请稍后...</string>
+    <string name="modify_pwd_title">修改密码</string>
+    <string name="modify_pwd_sub">确认修改</string>
+    <!-- 修改密码 -->
+    <string name="modify_pwd_old_pwd">旧密码</string>
+    <string name="modify_pwd_new_pwd">新密码</string>
+    <string name="modify_pwd_sub_pwd">确认密码</string>
+    <string name="network_connect_error">网络连接错误，请检查网络设置</string>
+    <string name="network_connect_overtime">网络连接超时，请检查网络设置</string>
+
+    <string name="server_error">服务器出了点小毛病，请联系请联系管理员</string>
+    <string name="login_first">请先登录再进行操作</string>
+    <string name="toast_pwd_no_common">新密码与确认密码不一致</string>
+    <string name="toast_password_modify_success">修改密码成功</string>
+    <string name="no_network_layout_hint">矮油~主人，网络好像不见了，点我刷新哦</string>
+    <string name="loading_loading">加载中...</string>
+    <string name="ondate_click">内容正在更新中...</string>
+    <string name="loading_failed_click">加载失败，清除屏幕重新加载</string>
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="message_permission_rationale">授予下列权限以继续程序:\n\n%1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="calendar_year">%d年</string>
+</resources>

@@ -1,0 +1,15 @@
+/node_modules
+/scripts
+/config
+/lambda/
+/dist
+/public
+/app
+/common
+/gradle
+/lib
+/linkage-recyclerview
+/ncalendar
+/signlibrary
+/silicompressor
+

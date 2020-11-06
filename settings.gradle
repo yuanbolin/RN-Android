@@ -1,0 +1,17 @@
+include ':app',
+        ':silicompressor',
+        ':react-native-gesture-handler',
+        ':react-native-safe-area-context',
+        ':react-native-reanimated',
+        ':viewpager',
+        ':react-native-linear-gradNavtiveModulesient',
+        ':@react-native-community_async-storage',
+        'masked-view', ':react-native-extra-dimensions-androidproject(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, './node_modules/react-native-linear-gradient/android')
+project(':@react-native-community_async-storage').projectDir = new File(rootProject.projectDir, './node_modules/@react-native-community/async-storage/android')
+project(':react-native-gesture-handler').projectDir = new File(rootProject.projectDir, './node_modules/react-native-gesture-handler/android')
+project(':viewpager').projectDir = new File(rootProject.projectDir, './node_modules/@react-native-community/viewpager/android')
+project(':masked-view').projectDir = new File(rootProject.projectDir, './node_modules/@react-native-community/masked-view/android')
+project(':react-native-safe-area-context').projectDir = new File(rootProject.projectDir, './node_modules/react-native-safe-area-context/android')
+project(':react-native-reanimated').projectDir = new File(rootProject.projectDir, './node_modules/react-native-reanimated/android')
+project(':react-native-extra-dimensions-android').projectDir = new File(rootProject.projectDir, './node_modules/react-native-extra-dimensions-android/android')
+rootProject.name = "BaseAndroid"

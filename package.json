@@ -1,0 +1,94 @@
+{
+  "name": "base_android",
+  "version": "1.0.0",
+  "description": "rn",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "nodeapp.js",
+    "start": "adb reverse tcp:8081 tcp:8081 && node node_modules/react-native/local-cli/cli.js start",
+    "changelog-lastest": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "changelog-all": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://ruoweiedu.com:7000/ruowei/rn_android.git"
+  },
+  "author": "lin",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons-react-native": "^2.2.1",
+    "@ant-design/react-native": "^3.3.0",
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/viewpager": "^4.0.1",
+    "@react-navigation/native": "^5.5.1",
+    "@react-navigation/stack": "^5.4.2",
+    "axios": "^0.19.2",
+    "bufferutil": "^4.0.1",
+    "eslint-config-airbnb": "^18.1.0",
+    "express": "^4.16.4",
+    "hermesvm": "^0.1.1",
+    "jsc-android": "^241213.1.0",
+    "moment": "^2.26.0",
+    "qs": "^6.9.4",
+    "react": "^16.11.0",
+    "react-native": "^0.62.2",
+    "react-native-extra-dimensions-android": "^1.2.5",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-zoom-viewer": "^3.0.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.2",
+    "react-native-screens": "^2.8.0",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-table-component": "^1.2.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.3.9",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "commitizen": "^4.1.2",
+    "conventional-changelog-cli": "^2.1.0",
+    "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "0.0.7",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-compat": "^2.6.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-markdown": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "3.8.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "2.0.5",
+    "react-test-renderer": "16.11.0",
+    "slash2": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "resolutions": {
+    "@react-native-community/cli-debugger-ui": "4.7.0"
+  }
+}
